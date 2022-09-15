@@ -1,13 +1,25 @@
+/* stylization of the links */
+a:link {
+  color: #64a456;
+}
+a:visited {
+  color: #56894c;
+}
+a:hover {
+  color: #295722;
+}
+a:active {
+  color: #377919;
+}
+/* setting global valies in the body */
 body {
   background-color: #fefefe;
   width: 600px;
   margin: auto;
-}
-
-body {
   font-family: Fantasy, Arial, Helvetica, sans-serif;
 }
 
+/* lets make h1 be white on a green background */
 h1 {
   color: #fefefe;
   background-color: #6aa85d;
@@ -16,18 +28,21 @@ h1 {
   font-size: 45px;
 }
 
+/* lets keep it black on white with a smaller size than the h1 */
 h2 {
   height: 40px;
   line-height: 40px;
   font-size: 35px;
 }
 
+/* force the divs to be a certain size for formatting */
 div {
   display: block;
   position: relative;
   margin: 40px 0;
 }
 
+/* specifically make the div h3's white on green */
 div h3 {
   color: #fefefe;
   background-color: #64a456;
@@ -35,6 +50,7 @@ div h3 {
   line-height: 35px;
 }
 
+/* control the section width and height */
 .sectionwidth {
   width: 500px;
   margin: 0px 50px;
@@ -45,6 +61,7 @@ div h3 {
   padding-bottom: 10px;
 }
 
+/* control text alignment */
 .center {
   text-align: center;
 }
