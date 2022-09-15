@@ -1,0 +1,50 @@
+body {
+  background-color: #fefefe;
+  width: 600px;
+  margin: auto;
+}
+
+body {
+  font-family: Fantasy, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: #fefefe;
+  background-color: #6aa85d;
+  height: 100px;
+  line-height: 100px;
+  font-size: 45px;
+}
+
+h2 {
+  height: 40px;
+  line-height: 40px;
+  font-size: 35px;
+}
+
+div {
+  display: block;
+  position: relative;
+  margin: 40px 0;
+}
+
+div h3 {
+  color: #fefefe;
+  background-color: #64a456;
+  height: 35px;
+  line-height: 35px;
+}
+
+.sectionwidth {
+  width: 500px;
+  margin: 0px 50px;
+}
+
+.sectionheight {
+  height: 150px;
+  padding-bottom: 10px;
+}
+
+.center {
+  text-align: center;
+}
