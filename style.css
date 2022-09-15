@@ -1,16 +1,3 @@
-/* stylization of the links */
-a:link {
-  color: #64a456;
-}
-a:visited {
-  color: #56894c;
-}
-a:hover {
-  color: #295722;
-}
-a:active {
-  color: #377919;
-}
 /* setting global valies in the body */
 body {
   background-color: #fefefe;
@@ -48,6 +35,20 @@ div h3 {
   background-color: #64a456;
   height: 35px;
   line-height: 35px;
+}
+
+/* stylization of the links */
+a:link {
+  color: #64a456;
+}
+a:visited {
+  color: #56894c;
+}
+a:hover {
+  color: #295722;
+}
+a:active {
+  color: #377919;
 }
 
 /* control the section width and height */
